@@ -9,3 +9,5 @@ while [[ "$search_dir" != "/" ]]; do
     fi
     search_dir=$(dirname "$search_dir")
 done
+
+export HOME_DIR="$HOME"
