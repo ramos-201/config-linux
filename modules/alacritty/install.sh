@@ -1,13 +1,6 @@
 #!/bin/bash
 
-source "$BASE_DIR/config_base.sh"
-
-LOG_FILE_ALACRITTY="alacritty.log"
-
-set_log_file "$LOG_FILE_ALACRITTY"
-
-# Reset log file
-remove_log_file
+source "$BASE_DIR/utils_base.sh"
 
 log_info "Installing Alacritty..."
 if ! output=$(sudo apt install -y alacritty 2>&1); then
