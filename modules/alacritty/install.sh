@@ -1,6 +1,6 @@
 #!/bin/bash
 
-source "$BASE_DIR/config_base.sh"
+source "$BASE_DIR/utils_base.sh"
 
 LOG_FILE_ALACRITTY="alacritty.log"
 
