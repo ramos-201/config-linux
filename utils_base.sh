@@ -1,8 +1,5 @@
 #!/bin/bash
 
-# Grant `sudo` permissions
-sudo -v
-
 # Color definitions for logs
 _COLOR_RESET=$(tput sgr0)
 _COLOR_INFO=$(tput setaf 6)
