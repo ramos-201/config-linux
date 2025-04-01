@@ -12,4 +12,7 @@ log_success "Zsh installed successfully: $(zsh --version)"
 # Set as default
 sudo chsh -s "$(which zsh)" "$USER"
 
+# Create `.zshrc` file
+touch ~/.zshrc
+
 log_success "The installation and configuration of Zsh completed successfully."
